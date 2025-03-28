@@ -1,0 +1,84 @@
+[
+  {
+    "model": "tarot_cards.card",
+    "pk": 8,
+    "fields": {
+      "name": "The Lovers",
+      "value": 6,
+      "suit": 1
+    }
+  },
+  {
+    "model": "tarot_cards.cardimage",
+    
+    "fields": {
+      "card": 8,
+
+      "image_path": "images/06-TheLovers.png"
+    }
+  },
+  {
+    "model": "tarot_cards.deckcard",
+    
+    "fields": {
+      "card": 8,
+      "deck": 1,
+      "position": 7
+    }
+  },
+  {
+    "model": "tarot_cards.card",
+    "pk": 9,
+    "fields": {
+      "name": "The Chariot",
+      "value": 7,
+      "suit": 1
+    }
+  },
+  {
+    "model": "tarot_cards.cardimage",
+    
+    "fields": {
+      "card": 9,
+
+      "image_path": "images/07-TheChariot.png"
+    }
+  },
+  {
+    "model": "tarot_cards.deckcard",
+    
+    "fields": {
+      "card": 9,
+      "position": 8,
+      "deck": 1
+    }
+  },
+  {
+    "model": "tarot_cards.card",
+    "pk": 10,
+    "fields": {
+      "name": "Strength",
+      "value": 8,
+      "suit": 1
+    }
+  },
+  {
+    "model": "tarot_cards.cardimage",
+    
+    "fields": {
+      "card": 10,
+
+      "image_path": "images/08-Strength.png"
+    }
+  },
+  {
+    "model": "tarot_cards.deckcard",
+    
+    "fields": {
+      "card": 10,
+      "position": 9,
+      "deck": 1
+    }
+  }
+  
+]

@@ -1,0 +1,35 @@
+<body>
+  <div id="spreadArea" onClick="placeCard(event)"></div>
+</body>
+
+<style>
+  #spreadArea{
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    /* background-color: blue; */
+    position: relative;
+  }
+
+  .img-click-placement{
+    height: 120px;
+    width: 70px;
+    position:absolute;
+  }
+
+;l<script>
+  function placeCard(event){
+    const area = document.getElementById('spreadArea');
+    const rect = area.getBoundingClientRect();
+    const x = event.clientX -  rect.left;
+    const y = event.clientY - rect.top;
+    console.log(y)
+    
+    const img = document.createElement('img');
+    img.src = 'Wands08.png';
+    img.className = 'img-click-placement';
+    img.style.left = x +'px';
+    img.style.top = y + 'px';
+    area.appendChild(img);
+  }
+</script>

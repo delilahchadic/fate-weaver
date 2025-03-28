@@ -1,0 +1,280 @@
+card,meaning,type
+The Fool,New beginnings,Trait
+The Fool,Spontaneity,Trait
+The Fool,Innocence,Trait
+The Magician,Willpower,Trait
+The Magician,Manifestation,Trait
+The Magician,Resourcefulness,Trait
+The High Priestess,Intuition,Trait
+The High Priestess,Mystery,Trait
+The High Priestess,Hidden knowledge,Trait
+The Empress,Abundance,Trait
+The Empress,Fertility,Trait
+The Empress,Nurturing,Trait
+The Emperor,Authority,Trait
+The Emperor,Structure,Trait
+The Emperor,Control,Trait
+The Hierophant,Tradition,Trait
+The Hierophant,Spirituality,Trait
+The Hierophant,Conformity,Trait
+The Lovers,Relationships,Trait
+The Lovers,Choices,Trait
+The Lovers,Harmony,Trait
+The Chariot,Willpower,Trait
+The Chariot,Determination,Trait
+The Chariot,Control,Trait
+Strength,Courage,Trait
+Strength,Inner strength,Trait
+Strength,Compassion,Trait
+The Hermit,Introspection,Trait
+The Hermit,Solitude,Trait
+The Hermit,Wisdom,Trait
+Wheel of Fortune,Change,Trait
+Wheel of Fortune,Cycles,Trait
+Wheel of Fortune,Destiny,Trait
+Justice,Fairness,Trait
+Justice,Truth,Trait
+Justice,Balance,Trait
+The Hanged Man,Surrender,Trait
+The Hanged Man,Sacrifice,Trait
+The Hanged Man,Perspective,Trait
+Death,Transformation,Trait
+Death,Endings,Trait
+Death,New beginnings,Trait
+Temperance,Balance,Trait
+Temperance,Moderation,Trait
+Temperance,Patience,Trait
+The Devil,Temptation,Trait
+The Devil,Addiction,Trait
+The Devil,Materialism,Trait
+The Tower,Sudden change,Trait
+The Tower,Upheaval,Trait
+The Tower,Revelation,Trait
+The Star,Hope,Trait
+The Star,Inspiration,Trait
+The Star,Guidance,Trait
+The Moon,Intuition,Trait
+The Moon,Illusions,Trait
+The Moon,The subconscious,Trait
+The Sun,Joy,Trait
+The Sun,Vitality,Trait
+The Sun,Success,Trait
+Judgment,Renewal,Trait
+Judgment,Awakening,Trait
+Judgment,Reflection,Trait
+The World,Completion,Trait
+The World,Fulfillment,Trait
+The World,Achievement,Trait
+Ace of Cups,Love,Trait
+Ace of Cups,Compassion,Trait
+Ace of Cups,Emotional beginnings,Trait
+Two of Cups,Partnership,Trait
+Two of Cups,Mutual attraction,Trait
+Two of Cups,Harmony,Trait
+Three of Cups,Celebration,Trait
+Three of Cups,Friendship,Trait
+Three of Cups,Community,Trait
+Four of Cups,Contemplation,Trait
+Four of Cups,Introspection,Trait
+Four of Cups,Discontent,Trait
+Five of Cups,Loss,Trait
+Five of Cups,Regret,Trait
+Five of Cups,Mourning,Trait
+Six of Cups,Nostalgia,Trait
+Six of Cups,Familiarity,Trait
+Six of Cups,Childhood memories,Trait
+Seven of Cups,Choices,Trait
+Seven of Cups,Illusions,Trait
+Seven of Cups,Fantasy,Trait
+Eight of Cups,Abandonment,Trait
+Eight of Cups,Walking away,Trait
+Eight of Cups,Disappointment,Trait
+Nine of Cups,Satisfaction,Trait
+Nine of Cups,Wishes fulfilled,Trait
+Nine of Cups,Contentment,Trait
+Ten of Cups,Harmony,Trait
+Ten of Cups,Family,Trait
+Ten of Cups,Emotional fulfillment,Trait
+Page of Cups,Intuitive messages,Trait
+Page of Cups,Creative beginnings,Trait
+Page of Cups,Emotional curiosity,Trait
+Knight of Cups,Romantic pursuit,Trait
+Knight of Cups,Emotional journey,Trait
+Knight of Cups,Following a dream,Trait
+Queen of Cups,Emotional depth,Trait
+Queen of Cups,Compassion,Trait
+Queen of Cups,Intuition,Trait
+King of Cups,Emotional balance,Trait
+King of Cups,Compassion,Trait
+King of Cups,Diplomacy,Trait
+Ace of Wands,Inspiration,Trait
+Ace of Wands,New beginnings,Trait
+Ace of Wands,Potential,Trait
+Two of Wands,Planning,Trait
+Two of Wands,Decision-making,Trait
+Two of Wands,Progress,Trait
+Three of Wands,Expansion,Trait
+Three of Wands,Foresight,Trait
+Three of Wands,Momentum,Trait
+Four of Wands,Celebration,Trait
+Four of Wands,Joy,Trait
+Four of Wands,Community,Trait
+Five of Wands,Conflict,Trait
+Five of Wands,Competition,Trait
+Five of Wands,Challenge,Trait
+Six of Wands,Victory,Trait
+Six of Wands,Recognition,Trait
+Six of Wands,Success,Trait
+Seven of Wands,Defense,Trait
+Seven of Wands,Perseverance,Trait
+Seven of Wands,Standing your ground,Trait
+Eight of Wands,Action,Trait
+Eight of Wands,Speed,Trait
+Eight of Wands,Movement,Trait
+Nine of Wands,Resilience,Trait
+Nine of Wands,Determination,Trait
+Nine of Wands,Boundaries,Trait
+Ten of Wands,Burden,Trait
+Ten of Wands,Responsibility,Trait
+Ten of Wands,Completion,Trait
+Page of Wands,Enthusiasm,Trait
+Page of Wands,Exploration,Trait
+Page of Wands,New ideas,Trait
+Knight of Wands,Adventure,Trait
+Knight of Wands,Passion,Trait
+Knight of Wands,Impulsiveness,Trait
+Queen of Wands,Confidence,Trait
+Queen of Wands,Warmth,Trait
+Queen of Wands,Influence,Trait
+King of Wands,Leadership,Trait
+King of Wands,Vision,Trait
+King of Wands,Authority,Trait
+The Fool,Uranus,Planet
+The Magician,Mercury,Planet
+The Magician,Gemini,Zodiac
+The Magician,Virgo,Zodiac
+The High Priestess,Moon,Planet
+The High Priestess,Cancer,Zodiac
+The Empress,Venus,Planet
+The Empress,Taurus,Zodiac
+The Empress,Libra,Zodiac
+The Emperor,Aries,Zodiac
+The Hierophant,Taurus,Zodiac
+The Lovers,Gemini,Zodiac
+The Chariot,Cancer,Zodiac
+Strength,Leo,Zodiac
+Justice,Libra,Zodiac
+The Hermit,Virgo,Zodiac
+Wheel of Fortune,Jupiter,Planet
+Justice,Libra,Zodiac
+The Hanged Man,Neptune,Planet
+Death,Scorpio,Zodiac
+Temperance,Sagittarius,Zodiac
+The Devil,Saturn,Planet
+The Devil,Capricorn,Zodiac
+The Tower,Mars,Planet
+The Star,Aquarius,Zodiac
+The Moon,Pisces,Zodiac
+The Sun,Leo,Zodiac
+Judgment,Pluto,Planet
+The World,Saturn,Planet
+Ace of Swords,Truth,Trait
+Ace of Swords,Clarity,Trait
+Ace of Swords,Breakthrough,Trait
+Two of Swords,Indecision,Trait
+Two of Swords,Stalemate,Trait
+Two of Swords,Avoidance,Trait
+Three of Swords,Heartbreak,Trait
+Three of Swords,Pain,Trait
+Three of Swords,Sorrow,Trait
+Four of Swords,Rest,Trait
+Four of Swords,Recovery,Trait
+Four of Swords,Contemplation,Trait
+Five of Swords,Conflict,Trait
+Five of Swords,Defeat,Trait
+Five of Swords,Betrayal,Trait
+Six of Swords,Transition,Trait
+Six of Swords,Moving on,Trait
+Six of Swords,Acceptance,Trait
+Seven of Swords,Deception,Trait
+Seven of Swords,Trickery,Trait
+Seven of Swords,Stealth,Trait
+Eight of Swords,Restriction,Trait
+Eight of Swords,Helplessness,Trait
+Eight of Swords,Victimization,Trait
+Nine of Swords,Anxiety,Trait
+Nine of Swords,Worry,Trait
+Nine of Swords,Fear,Trait
+Ten of Swords,Endings,Trait
+Ten of Swords,Defeat,Trait
+Ten of Swords,Rock bottom,Trait
+Page of Swords,Mental curiosity,Trait
+Page of Swords,Information gathering,Trait
+Page of Swords,Vigilance,Trait
+Knight of Swords,Driven action,Trait
+Knight of Swords,Assertiveness,Trait
+Knight of Swords,Impulsiveness,Trait
+Queen of Swords,Intellectual prowess,Trait
+Queen of Swords,Clarity,Trait
+Queen of Swords,Independence,Trait
+King of Swords,Mental mastery,Trait
+King of Swords,Authority,Trait
+King of Swords,Logic,Trait
+Ace of Pentacles,Prosperity,Trait
+Ace of Pentacles,New beginnings,Trait
+Ace of Pentacles,Material gain,Trait
+Two of Pentacles,Balance,Trait
+Two of Pentacles,Adaptability,Trait
+Two of Pentacles,Juggling,Trait
+Three of Pentacles,Collaboration,Trait
+Three of Pentacles,Skill,Trait
+Three of Pentacles,Teamwork,Trait
+Four of Pentacles,Stability,Trait
+Four of Pentacles,Security,Trait
+Four of Pentacles,Possessiveness,Trait
+Five of Pentacles,Hardship,Trait
+Five of Pentacles,Poverty,Trait
+Five of Pentacles,Isolation,Trait
+Six of Pentacles,Generosity,Trait
+Six of Pentacles,Charity,Trait
+Six of Pentacles,Sharing,Trait
+Seven of Pentacles,Patience,Trait
+Seven of Pentacles,Investment,Trait
+Seven of Pentacles,Long-term goals,Trait
+Eight of Pentacles,Dedication,Trait
+Eight of Pentacles,Craftsmanship,Trait
+Eight of Pentacles,Apprenticeship,Trait
+Nine of Pentacles,Independence,Trait
+Nine of Pentacles,Luxury,Trait
+Nine of Pentacles,Self-sufficiency,Trait
+Ten of Pentacles,Legacy,Trait
+Ten of Pentacles,Wealth,Trait
+Ten of Pentacles,Family inheritance,Trait
+Page of Pentacles,Manifestation,Trait
+Page of Pentacles,Learning,Trait
+Page of Pentacles,Practicality,Trait
+Knight of Pentacles,Persistence,Trait
+Knight of Pentacles,Reliability,Trait
+Knight of Pentacles,Routine,Trait
+Queen of Pentacles,Nurturing,Trait
+Queen of Pentacles,Abundance,Trait
+Queen of Pentacles,Practicality,Trait
+King of Pentacles,Material abundance,Trait
+King of Pentacles,Security,Trait
+King of Pentacles,Business acumen,Trait
+Page of Wands,Aries,Zodiac
+Knight of Wands,Leo,Zodiac
+Queen of Wands,Sagittarius,Zodiac
+King of Wands,Aries,Zodiac
+Page of Cups,Cancer,Zodiac
+Knight of Cups,Scorpio,Zodiac
+Queen of Cups,Pisces,Zodiac
+King of Cups,Cancer,Zodiac
+Page of Swords,Libra,Zodiac
+Knight of Swords,Aquarius,Zodiac
+Queen of Swords,Gemini,Zodiac
+King of Swords,Libra,Zodiac
+Page of Pentacles,Virgo,Zodiac
+Knight of Pentacles,Taurus,Zodiac
+Queen of Pentacles,Capricorn,Zodiac
+King of Pentacles,Taurus,Zodiac
