@@ -1,11 +1,12 @@
 // src/App.js
 import React from 'react';
 import ReadingView from './ReadingView';
+import ReadingLayout from './ReadingLayout';
 
 function App() {
   return (
     <div className="App">
-      <ReadingView deckId={1} /> {/* Replace 1 with your deck ID */}
+      <ReadingLayout/>{/* Replace 1 with your deck ID */}
     </div>
   );
 }
