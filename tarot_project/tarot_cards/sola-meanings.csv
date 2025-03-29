@@ -1,0 +1,258 @@
+card,meaning,type
+Mato,Instinct,Trait
+Mato,Primal impulse,Trait
+Mato,Untamed energy,Trait
+Panfilio,Craftsmanship,Trait
+Panfilio,Skill,Trait
+Panfilio,Creative ability,Trait
+Postumio,Authority,Trait
+Postumio,Judgment,Trait
+Postumio,Decisive action,Trait
+Lenpio,Violence,Trait
+Lenpio,Conflict,Trait
+Lenpio,Raw power,Trait
+Mario,Victory,Trait
+Mario,Triumph,Trait
+Mario,Military prowess,Trait
+Catulo,Melancholy,Trait
+Catulo,Reflection,Trait
+Catulo,Artistic temperament,Trait
+Sesto,Celebration,Trait
+Sesto,Abundance,Trait
+Sesto,Joy,Trait
+Deo Tauro,Divine strength,Trait
+Deo Tauro,Untamed nature,Trait
+Deo Tauro,Bestial power,Trait
+Nerone,Tyranny,Trait
+Nerone,Excess,Trait
+Nerone,Destructive force,Trait
+Falco,Pursuit,Trait
+Falco,Ambition,Trait
+Falco,Focused intent,Trait
+Venturio,Change,Trait
+Venturio,Fortune,Trait
+Venturio,The turning wheel,Trait
+Tulio,Communication,Trait
+Tulio,Eloquence,Trait
+Tulio,Persuasive speech,Trait
+Carbone,Sacrifice,Trait
+Carbone,Trial,Trait
+Carbone,Transformation,Trait
+Catone,Justice,Trait
+Catone,Balance,Trait
+Catone,Moral integrity,Trait
+Bocho,Temperance,Trait
+Bocho,Moderation,Trait
+Bocho,Alchemical blending,Trait
+Metelo,Passion,Trait
+Metelo,Desire,Trait
+Metelo,Earthly bonds,Trait
+Olivo,Upheaval,Trait
+Olivo,Sudden change,Trait
+Olivo,Revelation,Trait
+Ipeo,Hope,Trait
+Ipeo,Inspiration,Trait
+Ipeo,Visionary insight,Trait
+Lentulo,Illusion,Trait
+Lentulo,Hidden dangers,Trait
+Lentulo,Subconscious,Trait
+Sabino,Illumination,Trait
+Sabino,Clarity,Trait
+Sabino,Awakened consciousness,Trait
+Nenbroto,Judgement,Trait
+Nenbroto,Reckoning,Trait
+Nenbroto,Finality,Trait
+Nabuchodenasor,Completion,Trait
+Nabuchodenasor,Achievement,Trait
+Nabuchodenasor,The world,Trait
+Ace of Cups,Beginnings of emotion,Trait
+Ace of Cups,Potential for love,Trait
+Ace of Cups,Inner wellspring,Trait
+Two of Cups,Partnership,Trait
+Two of Cups,Union,Trait
+Two of Cups,Harmony,Trait
+Three of Cups,Celebration,Trait
+Three of Cups,Community,Trait
+Three of Cups,Joyful sharing,Trait
+Four of Cups,Reflection on feelings,Trait
+Four of Cups,Contemplation,Trait
+Four of Cups,Inward focus,Trait
+Five of Cups,Loss and grief,Trait
+Five of Cups,Emotional pain,Trait
+Five of Cups,Regret,Trait
+Six of Cups,Nostalgia,Trait
+Six of Cups,Memories,Trait
+Six of Cups,Kindness,Trait
+Seven of Cups,Choices of the heart,Trait
+Seven of Cups,Illusory feelings,Trait
+Seven of Cups,Fantasies,Trait
+Eight of Cups,Leaving emotions behind,Trait
+Eight of Cups,Walking away,Trait
+Eight of Cups,Searching for deeper meaning,Trait
+Nine of Cups,Emotional fulfillment,Trait
+Nine of Cups,Wishes of the heart,Trait
+Nine of Cups,Contentment,Trait
+Ten of Cups,Emotional harmony,Trait
+Ten of Cups,Family,Trait
+Ten of Cups,Long-term happiness,Trait
+Knave of Cups,Messenger of emotions,Trait
+Knave of Cups,Sensitivity,Trait
+Knave of Cups,New feelings,Trait
+Knight of Cups,Pursuit of love,Trait
+Knight of Cups,Romantic quest,Trait
+Knight of Cups,Idealism,Trait
+Queen of Cups,Emotional depth,Trait
+Queen of Cups,Intuition,Trait
+Queen of Cups,Compassion,Trait
+King of Cups,Emotional mastery,Trait
+King of Cups,Compassionate leader,Trait
+King of Cups,Balanced feelings,Trait
+card_name,quality,Trait
+Ace of Coins,New beginnings in material world,Trait
+Ace of Coins,Potential for resources,Trait
+Ace of Coins,Foundation,Trait
+Two of Coins,Adaptability,Trait
+Two of Coins,Change in circumstances,Trait
+Two of Coins,Balancing priorities,Trait
+Three of Coins,Skill and craftsmanship,Trait
+Three of Coins,Learning a trade,Trait
+Three of Coins,Collaboration,Trait
+Four of Coins,Holding onto possessions,Trait
+Four of Coins,Security,Trait
+Four of Coins,Material stability,Trait
+Five of Coins,Hardship,Trait
+Five of Coins,Financial difficulties,Trait
+Five of Coins,Loss,Trait
+Six of Coins,Sharing resources,Trait
+Six of Coins,Generosity,Trait
+Six of Coins,Commerce,Trait
+Seven of Coins,Patience,Trait
+Seven of Coins,Evaluation,Trait
+Seven of Coins,Long-term growth,Trait
+Eight of Coins,Diligence,Trait
+Eight of Coins,Hard work,Trait
+Eight of Coins,Mastery,Trait
+Nine of Coins,Independence,Trait
+Nine of Coins,Self-sufficiency,Trait
+Nine of Coins,Refinement,Trait
+Ten of Coins,Legacy,Trait
+Ten of Coins,Wealth,Trait
+Ten of Coins,Family inheritance,Trait
+Knave of Coins,Student of the material,Trait
+Knave of Coins,Practicality,Trait
+Knave of Coins,Manifestation,Trait
+Knight of Coins,Responsible action,Trait
+Knight of Coins,Persistence,Trait
+Knight of Coins,Steady progress,Trait
+Queen of Coins,Nurturing abundance,Trait
+Queen of Coins,Practicality,Trait
+Queen of Coins,Sensuality,Trait
+King of Coins,Material success,Trait
+King of Coins,Business acumen,Trait
+King of Coins,Stability,Trait
+Ace of Batons,New creative spark,Trait
+Ace of Batons,Inspiration,Trait
+Ace of Batons,Potential for action,Trait
+Two of Batons,Planning,Trait
+Two of Batons,Exploration,Trait
+Two of Batons,Personal power,Trait
+Three of Batons,Progress,Trait
+Three of Batons,Expansion,Trait
+Three of Batons,Partnerships,Trait
+Four of Batons,Celebration of success,Trait
+Four of Batons,Harmony,Trait
+Four of Batons,Stability,Trait
+Five of Batons,Challenges,Trait
+Five of Batons,Competition,Trait
+Five of Batons,Struggle,Trait
+Six of Batons,Victory,Trait
+Six of Batons,Recognition,Trait
+Six of Batons,Public acclaim,Trait
+Seven of Batons,Defense,Trait
+Seven of Batons,Standing your ground,Trait
+Seven of Batons,Courage,Trait
+Eight of Batons,Swift action,Trait
+Eight of Batons,Movement,Trait
+Eight of Batons,Rapid progress,Trait
+Nine of Batons,Resilience,Trait
+Nine of Batons,Endurance,Trait
+Nine of Batons,Strength,Trait
+Ten of Batons,Burden,Trait
+Ten of Batons,Responsibility,Trait
+Ten of Batons,Overwhelm,Trait
+Knave of Batons,Enthusiasm,Trait
+Knave of Batons,Messenger of creativity,Trait
+Knave of Batons,Inspiration,Trait
+Knight of Batons,Passionate action,Trait
+Knight of Batons,Adventure,Trait
+Knight of Batons,Impulsiveness,Trait
+Queen of Batons,Confident creativity,Trait
+Queen of Batons,Charisma,Trait
+Queen of Batons,Warmth,Trait
+King of Batons,Leadership,Trait
+King of Batons,Vision,Trait
+King of Batons,Authority,Trait
+Ace of Swords,Clarity of mind,Trait
+Ace of Swords,New ideas,Trait
+Ace of Swords,Truth,Trait
+Two of Swords,Decision making,Trait
+Two of Swords,Indecision,Trait
+Two of Swords,Balance,Trait
+Three of Swords,Heartbreak,Trait
+Three of Swords,Sorrow,Trait
+Three of Swords,Pain,Trait
+Four of Swords,Rest,Trait
+Four of Swords,Contemplation,Trait
+Four of Swords,Recovery,Trait
+Five of Swords,Conflict,Trait
+Five of Swords,Betrayal,Trait
+Five of Swords,Loss,Trait
+Six of Swords,Transition,Trait
+Six of Swords,Moving on,Trait
+Six of Swords,Journey,Trait
+Seven of Swords,Deception,Trait
+Seven of Swords,Stealth,Trait
+Seven of Swords,Strategy,Trait
+Eight of Swords,Restriction,Trait
+Eight of Swords,Limitation,Trait
+Eight of Swords,Feeling trapped,Trait
+Nine of Swords,Anxiety,Trait
+Nine of Swords,Worry,Trait
+Nine of Swords,Nightmares,Trait
+Ten of Swords,Endings,Trait
+Ten of Swords,Defeat,Trait
+Ten of Swords,Rock bottom,Trait
+Knave of Swords,Mental agility,Trait
+Knave of Swords,Communication,Trait
+Knave of Swords,Curiosity,Trait
+Knight of Swords,Intellectual force,Trait
+Knight of Swords,Action,Trait
+Knight of Swords,Impulsiveness,Trait
+Queen of Swords,Sharp intellect,Trait
+Queen of Swords,Independent thought,Trait
+Queen of Swords,Honesty,Trait
+King of Swords,Authority,Trait
+King of Swords,Logic,Trait
+King of Swords,Fairness,Trait
+Mato,Mato (a fool figure),Person
+Panfilio,Panfilio (a craftsman or artist),Person
+Postumio,Postumio (a Roman magistrate),Person
+Lenpio,Lenpio (a violent figure),Person
+Mario,Gaius Marius (a Roman general),Person
+Catulo,Gaius Valerius Catullus (a Roman poet),Person
+Sesto,Sextus Pompeius (a Roman general),Person
+Deo Tauro,Mithras/Taurus (a god/constellation),Person
+Nerone,Nero (a Roman emperor),Person
+Falco,Falco (a hunter or warrior),Person
+Venturio,Venturio (a figure associated with change),Person
+Tulio,Marcus Tullius Cicero (a Roman statesman),Person
+Carbone,Gnaeus Papirius Carbo (a Roman politician),Person
+Catone,Marcus Porcius Cato the Younger (a Roman statesman),Person
+Bocho,Bocchus I (a king of Mauretania),Person
+Metelo,Quintus Caecilius Metellus Numidicus (a Roman general),Person
+Olivo,Olivo (a figure associated with destruction),Person
+Ipeo,Iope (a figure associated with hope),Person
+Lentulo,Gnaeus Cornelius Lentulus Clodianus (a Roman politician),Person
+Sabino,Sabinus (a figure associated with light),Person
+Nenbroto,Nimrod (a biblical king),Person
+Nabuchodenasor,Nebuchadnezzar II (a Babylonian king),Person

@@ -6,16 +6,16 @@ function CardDetail({selectedCard, cardMeanings}){
     {selectedCard && (
       <div>
         <img
-          src={`/static/${selectedCard.image.image_path}`}
+          src={`/static/${selectedCard.deck_card.image_path}`}
           alt={selectedCard.card.name}
           className="max-w-[180px] rounded-md shadow-md mb-2"
         />
         <p>
           <strong>Name:</strong> {selectedCard.card.name}
         </p>
-        <p>
+        {/* <p>
           <strong>Value:</strong> {selectedCard.card.value}
-        </p>
+        </p> */}
         <p>
           <strong>Suit:</strong> {selectedCard.suit.name}
         </p>

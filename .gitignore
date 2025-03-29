@@ -1,0 +1,19 @@
+# OS generated files
+.DS_Store
+*.swp
+
+# Python generated files
+*.pyc
+__pycache__/
+*.sqlite3
+
+# Node.js generated files (if applicable)
+node_modules/
+dist/
+build/
+
+# Django generated files
+*.log
+
+# Migration cache files.
+tarot_project/tarot_cards/migrations/__pycache__/

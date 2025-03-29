@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import Card, MeaningType, MeaningValue,CardImage, GeneralAttribute, CardGeneralAttribute, Deck, DeckCard,Suit
 
 class CardAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'description', 'suit') # Add 'id' here
+    list_display = ('id', 'name', 'suit') # Add 'id' here
 
 class CardImageAdmin(admin.ModelAdmin):
     list_display = ('id', 'image_path') # Add 'id' here

@@ -82,12 +82,13 @@ def get_deck(request, deck_id):
         for deck_card in deck_cards:
             card = deck_card.card
             card_serializer = CardSerializer(deck_card.card)
-            image_serializer = None
-            try:
-                card_image = CardImage.objects.get(card=deck_card.card)
-                image_serializer = CardImageSerializer(card_image).data
-            except CardImage.DoesNotExist:
-                image_serializer = None
+            image = deck_card.image_path
+            # image_serializer = 
+            # try:
+            #     card_image = CardImage.objects.get(card=deck_card.card)
+            #     image_serializer = CardImageSerializer(card_image).data
+            # except CardImage.DoesNotExist:
+            #     image_serializer = None
 
             suit_data = None
             if card.suit:
@@ -97,7 +98,7 @@ def get_deck(request, deck_id):
                 'deck_card': DeckCardSerializer(deck_card).data,
                 'card': card_serializer.data,
                 'suit': suit_data,
-                'image': image_serializer,
+                'image_path': image,
             })
 
         return Response(result)
@@ -106,15 +107,15 @@ def get_deck(request, deck_id):
         return Response({'error': 'Deck not found'}, status=404)
 
 @api_view(['GET'])
-def get_card_meanings(request, card_id):
+def get_card_meanings(request, deck_card_id):
     """
     Retrieves all meanings associated with a specific card.
     """
     try:
-        card = Card.objects.get(pk=card_id)
-        meanings = MeaningValue.objects.filter(card=card)
+        deck_card = DeckCard.objects.get(id=deck_card_id)
+        meanings = MeaningValue.objects.filter(deck_card=deck_card)
         serializer = MeaningValueSerializer(meanings, many=True)
         return Response(serializer.data)
-    except Card.DoesNotExist:
+    except DeckCard.DoesNotExist:
         return Response({'error': 'Card not found'}, status=404)
     

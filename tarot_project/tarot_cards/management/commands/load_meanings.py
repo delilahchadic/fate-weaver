@@ -1,12 +1,13 @@
 import csv
 from django.core.management.base import BaseCommand, CommandError
-from tarot_cards.models import Card, MeaningType, MeaningValue
+from tarot_cards.models import Card, MeaningType, MeaningValue, Deck, DeckCard
 
 class Command(BaseCommand):
     help = 'Loads tarot card meanings from a CSV file into the database'
 
     def add_arguments(self, parser):
         parser.add_argument('csv_file', type=str, help='Path to the CSV file')
+        parser.add_argument('deck_name', type=str, help='DeckName')
         parser.add_argument(
             '--flush',
             action='store_true',
@@ -16,6 +17,8 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         csv_file = options['csv_file']
         flush = options['flush']
+        deck_name = options['deck_name']
+        deck = Deck.objects.get(name=deck_name)
 
         if flush:
             self.stdout.write(self.style.WARNING('Clearing existing meanings and meaning types...'))
@@ -36,10 +39,17 @@ class Command(BaseCommand):
                     except Card.DoesNotExist:
                         self.stdout.write(self.style.WARNING(f'Card "{card_name}" not found. Skipping.'))
                         continue
+                    try:
+                        deck_card = DeckCard.objects.get(card_id=card.id, deck_id= deck.id)
+                    except DeckCard.DoesNotExist:
+                        self.stdout.write(self.style.WARNING(f'DEck Card "{card_name}" not found. Skipping.'))
+                        continue
+
+
 
                     meaning_type, created = MeaningType.objects.get_or_create(name=meaning_type_name)
 
-                    MeaningValue.objects.create(card=card, meaning_type=meaning_type, value=meaning_value)
+                    MeaningValue.objects.create(deck_card_id=deck_card.id, meaning_type=meaning_type, value=meaning_value)
 
                 self.stdout.write(self.style.SUCCESS('Meanings loaded successfully.'))
 

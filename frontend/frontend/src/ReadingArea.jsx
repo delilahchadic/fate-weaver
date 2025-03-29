@@ -12,7 +12,7 @@ function ReadingArea({ deckCards }) {
     if (deckCards.length === 0) return;
   
     const availableCards = deckCards.filter(
-      (cardData) => !dealtCards.some((dealt) => dealt.card.id === cardData.card.id)
+      (cardData) => !dealtCards.some((dealt) => dealt.deck_card.id === cardData.deck_card.id)
     );
   
     if (availableCards.length === 0) return;
@@ -39,11 +39,12 @@ function ReadingArea({ deckCards }) {
   };
 
   const handleCardClick = async (cardData) => {
+    console.log(cardData)
     setSelectedCard(cardData);
     setCardMeanings([]);
 
     try {
-      const response = await fetch(`/api/cards/${cardData.card.id}/meanings/`);
+      const response = await fetch(`/api/cards/${cardData.deck_card.id}/meanings/`);
       const data = await response.json();
 
       const groupedMeanings = data.reduce((acc, meaning) => {
@@ -92,7 +93,7 @@ function ReadingArea({ deckCards }) {
         {dealtCards.map((cardData, index) => (
           <img
             key={index}
-            src={`/static/${cardData.image.image_path}`}
+            src={`/static/${cardData.deck_card.image_path}`}
             alt={cardData.card.name}
             style={{
               position: 'absolute',

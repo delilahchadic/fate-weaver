@@ -9,25 +9,13 @@ class Suit(models.Model):
 class Card(models.Model):
     name = models.CharField(max_length=255, unique=True)
     value = models.CharField(max_length=50, blank=True, null=True)
-    description = models.TextField(blank=True, null=True)
     suit = models.ForeignKey(Suit, on_delete=models.SET_NULL, null=True, blank=True)
 
     def __str__(self):
         return self.name
+    
 
-class MeaningType(models.Model):
-    name = models.CharField(max_length=100, unique=True)
 
-    def __str__(self):
-        return self.name
-
-class MeaningValue(models.Model):
-    card = models.ForeignKey(Card, on_delete=models.CASCADE)
-    meaning_type = models.ForeignKey(MeaningType, on_delete=models.CASCADE)
-    value = models.TextField()
-
-    def __str__(self):
-        return f"{self.card.name} - {self.meaning_type.name}: {self.value[:50]}"
 
 class CardImage(models.Model):
     card = models.ForeignKey(Card, on_delete=models.CASCADE)
@@ -62,7 +50,18 @@ class Deck(models.Model):
 class DeckCard(models.Model):
     deck = models.ForeignKey(Deck, on_delete=models.CASCADE)
     card = models.ForeignKey(Card, on_delete=models.CASCADE)
-    position = models.IntegerField()
-
+    image_path = models.CharField(max_length=255)
+    description = models.TextField(blank=True, null=True)
     class Meta:
         unique_together = ('deck', 'card')
+
+class MeaningType(models.Model):
+    name = models.CharField(max_length=100, unique=True)
+
+    def __str__(self):
+        return self.name
+
+class MeaningValue(models.Model):
+    deck_card = models.ForeignKey(DeckCard, on_delete=models.CASCADE)
+    meaning_type = models.ForeignKey(MeaningType, on_delete=models.CASCADE)
+    value = models.TextField()

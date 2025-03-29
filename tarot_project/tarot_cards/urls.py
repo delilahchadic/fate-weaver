@@ -17,5 +17,5 @@ urlpatterns = [
     # path('cardmeanings/', views.CardMeaningList.as_view()),
     # path('cardmeanings/<int:pk>/', views.CardMeaningDetail.as_view()),
     path('decks/<int:deck_id>/', views.get_deck, name='get_deck'),
-    path('cards/<int:card_id>/meanings/', views.get_card_meanings, name='card-meanings'),
+    path('cards/<int:deck_card_id>/meanings/', views.get_card_meanings, name='card-meanings'),
 ]
