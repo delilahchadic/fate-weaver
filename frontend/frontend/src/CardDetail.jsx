@@ -1,6 +1,7 @@
 import React from 'react';
 
 function CardDetail({selectedCard, cardMeanings}){
+
   return(<div className="w-[290px] p-5 shadow-sm rounded-lg ml-2">
     <h2 className="text-[#4C5270] mb-5 font-serif">Card Details</h2>
     {selectedCard && (

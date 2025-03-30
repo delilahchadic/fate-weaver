@@ -1,8 +1,8 @@
 from rest_framework import generics
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from .models import Card, Deck, DeckCard, GeneralAttribute, CardGeneralAttribute, CardImage, MeaningType, MeaningValue
-from .serializers import CardSerializer, DeckSerializer, DeckCardSerializer, GeneralAttributeSerializer, CardGeneralAttributeSerializer, CardImageSerializer, MeaningTypeSerializer, MeaningValueSerializer,SuitSerializer
+from .models import Card, Deck, DeckCard, GeneralAttribute, CardGeneralAttribute, CardImage, MeaningType, MeaningValue, Spread,SpreadPosition
+from .serializers import CardSerializer, DeckSerializer, DeckCardSerializer, GeneralAttributeSerializer, CardGeneralAttributeSerializer, CardImageSerializer, MeaningTypeSerializer, MeaningValueSerializer,SuitSerializer, SpreadSerializer,SpreadPositionSerializer
 import random
 
 # Existing CRUD views...
@@ -119,3 +119,23 @@ def get_card_meanings(request, deck_card_id):
     except DeckCard.DoesNotExist:
         return Response({'error': 'Card not found'}, status=404)
     
+@api_view(['GET'])
+def get_spread(request, spread_id):
+    
+    try:
+        spread = Spread.objects.get(id=spread_id)  # Get the Spread object
+        positions = SpreadPosition.objects.filter(spread=spread)  # Get related SpreadPosition objects
+
+        spread_serializer = SpreadSerializer(spread)  # Serialize the Spread
+        positions_serializer = SpreadPositionSerializer(positions, many=True)  # Serialize positions
+
+        # Structure the response data explicitly
+        response_data = {
+            'spread': spread_serializer.data,
+            'positions': positions_serializer.data,
+        }
+
+        return Response(response_data)  # Return the structured data
+
+    except Spread.DoesNotExist:
+        return Response({'error': 'Spread not found'}, status=404)

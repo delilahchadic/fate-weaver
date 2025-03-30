@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Card, Deck, DeckCard, GeneralAttribute, CardGeneralAttribute, CardImage, MeaningType, MeaningValue,Suit
+from .models import Card, Deck, DeckCard, GeneralAttribute, CardGeneralAttribute, CardImage, MeaningType, MeaningValue,Suit, Spread, SpreadPosition 
 
 class CardSerializer(serializers.ModelSerializer):
     image_path = serializers.SerializerMethodField()
@@ -61,3 +61,13 @@ class SuitSerializer(serializers.ModelSerializer):
     class Meta:
         model = Suit
         fields = ['id', 'name']  # Include any other fields from the Suit model that you want to include.
+
+class SpreadSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Spread
+        fields = '__all__'
+
+class SpreadPositionSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = SpreadPosition
+        fields = '__all__'

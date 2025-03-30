@@ -65,3 +65,21 @@ class MeaningValue(models.Model):
     deck_card = models.ForeignKey(DeckCard, on_delete=models.CASCADE)
     meaning_type = models.ForeignKey(MeaningType, on_delete=models.CASCADE)
     value = models.TextField()
+
+class Spread(models.Model):
+    name = models.CharField(max_length=100, unique=True)
+    description = models.TextField(blank=True, null=True)
+    
+    def __str__(self):
+        return self.name
+    
+class SpreadPosition(models.Model):
+    spread = models.ForeignKey(Spread, on_delete=models.CASCADE)
+    name = models.CharField(max_length=100, unique=True)
+    description = models.TextField(blank=True, null=True)
+    top = models.FloatField()
+    left = models.FloatField()
+    position = models.IntegerField()
+    class Meta:
+        unique_together = [['spread', 'name']]
+        ordering = ['position']  # Order by position by default
